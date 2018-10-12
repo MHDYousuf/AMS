@@ -1,0 +1,203 @@
+.htw-action-header{
+	font-weight: bold;
+}
+.htw-action-box{
+	padding: 8px 0;
+}
+.htw-selected-style{
+	border: 2px solid #ffc107 !important;
+}
+.htw-exit-btn{
+	float: right;
+    margin-top: -7px;
+    color: #444;
+    zoom: 0.8;
+    cursor: pointer;
+}
+.drop-element, .drop-element:after, .drop-element:before, .drop-element *, .drop-element *:after, .drop-element *:before {
+  box-sizing: border-box; }
+
+.drop-element {
+  position: absolute;
+  display: none; }
+  .drop-element.drop-open {
+    display: block; }
+
+.drop-element.howtoways-popovers {
+  max-width: 100%;
+  max-height: 100%; }
+  .drop-element.howtoways-popovers .drop-content {
+    border-radius: 5px;
+    position: relative;
+    font-family: inherit;
+    background: #fff;
+    color: #444;
+    padding: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em; }
+    .drop-element.howtoways-popovers .drop-content:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-width: 10px;
+      border-style: solid; }
+  .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-center .drop-content {
+    margin-bottom: 10px; }
+    .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-center .drop-content:before {
+      top: 100%;
+      left: 50%;
+      margin-left: -10px;
+      border-top-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-center .drop-content {
+    margin-top: 10px; }
+    .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-center .drop-content:before {
+      bottom: 100%;
+      left: 50%;
+      margin-left: -10px;
+      border-bottom-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-right.drop-element-attached-middle .drop-content {
+    margin-right: 10px; 
+	border-left: 4px solid #ffc107;
+	border-right: 1px solid #ffc107;
+	border-top: 1px solid #ffc107;
+	border-bottom: 1px solid #ffc107;
+	border-radius: 5px !important;
+	}
+    .drop-element.howtoways-popovers.drop-element-attached-right.drop-element-attached-middle .drop-content:before {
+      left: 100%;
+      top: 50%;
+      margin-top: -10px;
+      border-left-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-left.drop-element-attached-middle .drop-content {
+    margin-left: 10px;
+    border-left: 1px solid #ffc107;
+    border-right: 4px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-left.drop-element-attached-middle .drop-content:before {
+      right: 100%;
+      top: 50%;
+      margin-top: -10px;
+      border-right-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content {
+    margin-top: 10px; 
+    border-left: 1px solid #ffc107;
+    border-right: 4px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content:before {
+      bottom: 100%;
+      left: 10px;
+      border-bottom-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content {
+    margin-top: 10px; 
+    border-left: 4px solid #ffc107;
+    border-right: 1px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content:before {
+      bottom: 100%;
+      right: 10px;
+      border-bottom-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content {
+    margin-bottom: 10px; 
+    border-left: 1px solid #ffc107;
+    border-right: 4px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content:before {
+      top: 100%;
+      left: 10px;
+      border-top-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content {
+    margin-bottom: 10px; 
+    border-left: 4px solid #ffc107;
+    border-right: 1px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content:before {
+      top: 100%;
+      right: 10px;
+      border-top-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content {
+    margin-right: 10px; 
+    border-left: 4px solid #ffc107;
+    border-right: 1px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content:before {
+      top: 10px;
+      left: 100%;
+      border-left-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content {
+    margin-left: 10px; 
+    border-left: 1px solid #ffc107;
+    border-right: 4px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content:before {
+      top: 10px;
+      right: 100%;
+      border-right-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content {
+    margin-right: 10px; 
+    border-left: 4px solid #ffc107;
+    border-right: 1px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content:before {
+      bottom: 10px;
+      left: 100%;
+      border-left-color: #ffc107; }
+  .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content {
+    margin-left: 10px; 
+    border-left: 1px solid #ffc107;
+    border-right: 4px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    border-radius: 5px !important;
+  }
+    .drop-element.howtoways-popovers.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content:before {
+      bottom: 10px;
+      right: 100%;
+      border-right-color: #ffc107; }
+
+.drop-element.howtoways-popovers .drop-content {
+  box-shadow: 0 1px 14px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 3px;
+  font-size: 13px; }
+  .drop-element.howtoways-popovers .drop-content .drop-content-inner {
+    border: 1px solid #dbdbdb;
+    padding: 14px;
+    background: #fff;
+    overflow: hidden;
+    width: 280px; }
+    .drop-element.howtoways-popovers .drop-content .drop-content-inner .title {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-weight: normal;
+      line-height: 1; }
+    .drop-element.howtoways-popovers .drop-content .drop-content-inner p:last-child {
+      margin-bottom: 0; }
