@@ -164,7 +164,11 @@
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
-
+.service-content svg{
+	height: 50px!important;
+	width:50px!important;
+	color:#407fe5;
+}
 /* pagination */
 .owl-pagination {
 	text-align: center;
