@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.headingg{
+	margin-top: 100px!important;
+	background: linear-gradient(35deg,#212020 40%, #212020 100%);
+}
+
+.login{
+	/*border:2px solid black;*/
+	/*padding:20px;*/
+	text-align: center;
+	margin:0 auto;
+
+}
+.login-block{
+	border:1px solid black;
+	background:#302e2e;
+	padding:10px;
+	margin-bottom: 10px;
+	max-width: 300px;
+	left: 50%;
+	color:white;
+    position: relative;
+    margin-left: -151px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.login a{
+	text-decoration: none!important;
+	font-family: 'Acme', sans-serif;
+}
+.login-block:hover{
+	background:#407fe5;
+	color:white;
+	transform: scale(1.1);
+}
+.description{
+	line-height: 4!important;
+}
+.service,.section-intro, .form-field, .contact-info, .copyright{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.err-p{
+	display: none;
+	left: 88%;
+    font-size: 16px;
+    color: red;
+    margin-top: -11px;
+    margin-left: -36px;
+    position: absolute;
+    top: 52%;
+}
