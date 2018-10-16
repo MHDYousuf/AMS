@@ -40,3 +40,11 @@
 	text-align: center;
 	margin-bottom: 10px;
 }
+.err-p{
+	display: none;
+	font-size: 16px;
+    color: red;
+    margin-left: 230px;
+    position: absolute;
+    top: 128px;
+}
