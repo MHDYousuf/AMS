@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One');
+.navbar-brand{
+	font-family: 'Lily Script One', cursive;
+	color:#407fe5!important;
+}
+.navbar-fixed-top{
+	background-color: #fff!important;
+}
+.navbar-default{
+	background-color: #302e2e!important;
+	border-color:#407fe5!important;
+}
+.navbar-default .navbar-nav>.active>a{
+	background: #407fe5!important;
+	border:none;
+	color:white!important;
+}
+.navbar-nav li:hover, .navbar-nav li a:hover{
+	background:#393b3f!important;
+	color:white!important;
+}
+.navbar-nav li a:focus,.navbar-nav li a:hover,.navbar-nav li a:active,.navbar-nav li a:visited{
+	transition: 1s;
+}
+.navbar-right li a{
+	color:#407fe5!important;
+	transition: .8s;
+}
+.navbar-right li a:hover{
+	font-size: 16px;
+}
+.jumbotron{
+	background: transparent!important;
+}
+.jumbotron h1{
+	color:#407fe5!important;
+	font-family: 'Lily Script One', cursive;
+}
+.jumbotron q{
+	color:white!important;
+	font-size: 22px;
+	line-height: 2!important;
+	font-family: 'Charmonman', cursive;
+}
+.jumbotron .btn-primary{
+	background:#407fe5!important;
+	border:none;
+	transition: 1s;
+}
+.jumbotron .btn-primary:hover{
+	transform:scale(1.15);
+}
+.input-group {
+	max-width: 300px!important;
+	display:grid!important;
+	margin-top: 50px;
+    padding: 80px;
+}
+@media (max-width: 445px) {
+	.input-group{
+		margin-top: 20px;
+		padding:0px;
+		margin-bottom: 30px;
+	}
+}
+.custom-select{
+	padding:10px;
+	background: #407fe5;
+	border-radius: 10px;
+	color:#fff;
+	font-family: 'Josefin+Sans', cursive;
+	border:none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	max-width: 300px;
+}
+.custom-select:focus,.custom-select:visited{
+	border:none;
+}
+.custom-select:hover{
+	background:#407fe5; 
+	color:#fff;
+}
+.custom-select option{
+	color:black;
+	background: #fff;
+	max-width: 250px!important;
+}
+.input-group-append{
+	margin-top: 8px;
+}
+.input-group-append button{
+	padding:10px 15px;
+	font-family: 'Bitter', serif;
+	transition: 0.8s;
+}
+.input-group-append button:hover{
+	font-size:17px;
+	background: #407fe5;
+	color:white;
+}
+
+/** 
+ * ===================================================================
+ * 15. services - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#services {
+	background: #212020 url(../images/bg.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-top: 5rem;
+	padding-bottom: 8rem;
+	color: white;
+	position: relative;
+}
+#services .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #212020;
+	opacity: .97;
+}
+
+#services .section-intro {
+	margin-bottom: 1.8rem;
+}
+
+#services .section-intro h1 {
+	color: white;
+}
+#services .section-intro h4 {
+	color: #407fe5;
+}
+#services .section-intro p {
+	color: rgba(255, 255, 255, 0.7);
+}
+.services-content {
+	max-width: 1200px;
+}
+.services-list {
+	margin-top: 1.2rem;
+	text-align: center;
+}
+.services-list .service {
+	margin-bottom: 1.2rem;
+	padding: 0 30px;
+}
+.services-list .icon {
+	display: inline-block;
+	margin-bottom: 2.1rem;
+}
+.services-list .icon i {
+	font-size: 5.4rem;
+	color: #407fe5;
+}
+.services-list h3 {
+	color: #FFFFFF;
+}
+.services-list .desc {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* pagination */
+.owl-pagination {
+	text-align: center;
+	width: 100%;
+	margin: .6rem 0 0;
+}
+.owl-theme .owl-controls .owl-page {
+	display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 1.2rem .8rem 0 .8rem;
+	border-radius: 50%;
+	display: inline-block;
+	background: #FFFFFF;
+}
+.owl-theme .owl-controls .owl-page.active span {
+	background: #407fe5;
+}
+.form1 input{
+	width:320px;
+	height: 50px; 
+}
+.form1 input, .form1 textarea{
+	border-radius: 10px;
+	color:black;
+	padding:10px;
+}
+.submitform{
+	background: #407fe5;
+	border:none;
+	padding:10px 20px;
+	border-radius: 10px;
+	transition: 0.7s;
+}
+.submitform:hover{
+	transform: scale(1.2);
+}
+#contact{
+background: linear-gradient(to bottom,#1e1d1d 20%,#212020 80%#1e1d1d 100%);
+-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+
+#contact .overlay1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+}
+#contact .section-intro h4 {
+	color: #407fe5;
+}
+#contact .desc {
+	color: rgba(255, 255, 255, 0.6);
+}
+.contact-head{
+	color: #407fe5;
+}
+.foot{
+	margin-top: 10px;
+}
