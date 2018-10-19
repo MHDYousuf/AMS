@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body{
+	background-color: #000000;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url("../images/cover.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+.headingg{
+	margin-top:45px!important;
+	margin-bottom:90px!important;
+}
+.heading{
+	color:white;
+	font-family: 'Acme', sans-serif;
+	text-align:center;
+	font-size: 10px;
+}
+.description{
+	padding:20px;
+}
+.heading span{
+	color:#407fe5;
+	font-family: 'Lily Script One', cursive;
+}
+.student-logo svg{
+	font-size:60px;
+	color:#407fe5;
+}
+.login-heading h2{
+	font-size: 28px!important;
+	color:white!important;
+	font-family: 'Acme', sans-serif;
+}
+.staff-benefits li{
+	color:white;
+	font-size: 18px;
+	line-height: 1.8;
+}
+.glyphicon{
+	color:#33cc30!important;
+	margin-right:7px!important;
+}
+form{
+	padding:30px;
+	border-right:5px groove #407fe5;
+	border-bottom:5px groove #407fe5;
+	border-left:2px  solid #fff;
+	border-top:2px  solid #fff;
+	border-radius: 10px;
+	box-shadow: 7px 5px 10px rgba(70, 76, 70,0.4);
+}
+.form-group label{
+	color:#407fe5;
+	font-family:sans-serif;
+}
+.form-group input{
+	background: rgba(38, 40, 38,0.1);
+	border:none;
+	border-bottom: 2px solid #407fe5;
+	color:white; 
+}
+.form-check label{
+	color:white;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+.form-check .form-check-input{
+	color:#407fe5!important;
+	padding:10px!important;
+}
+form button{
+	transition: 0.4s linear;
+}
+form button:hover{
+	transform: scale(1.1);
+	border:none!important;
+	background: #fff!important;
+	color:#407fe5!important;
+}
+.pass-forgot,.pass-forgot a{
+	margin-top:13px!important;
+	text-decoration: none!important;
+	transition:0.7s;
+}
+.pass-forgot a:hover{
+	font-size:16px!important;
+}
+.footer11{
+	margin-top:50px!important;
+	text-align: center;
+}
+.footer11 p{
+	color:#b2bab2!important;
+}
+.copyright{
+	text-align: center;
+	color:#404440;
+}

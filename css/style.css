@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
+#heading{
+	background: #212020;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#heading .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom,#212121 20%,transparent);
+	opacity: .98;
+}
 .headingg{
 	margin-top: 100px!important;
-	background: linear-gradient(35deg,#212020 40%, #212020 100%);
+	background: -webkit-linear-gradient(305deg, #212020 40%, #212020 100%);
+	background: -o-linear-gradient(305deg, #212020 40%, #212020 100%);
+	background: linear-gradient(35deg, #212020 40%, #212020 100%);
 }
 
 .login{
