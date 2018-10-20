@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Zocial Login(student)</title>
+		<title>Zocial Login(officer)</title>
 		<link rel="stylesheet" href="css/style-login.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,22 +22,20 @@
 			<div class="row email-form">
 				<div class="col-sm-8 description">
 					<div class="row">
-						<div class="col-md-1 student-logo">
-							<i class="fas fa-user-graduate"></i>
+						<div class="col-md-1 col-xs-2 student-logo">
+							<i class="fas fa-user-tie"></i>
 						</div>
-						<div class="col-md-11 col-sm-11 col-xs-11">
-							<div class="login-heading"><h2>Student Benefits</h2></div>
+						<div class="col-md-11 col-xs-10">
+							<div class="login-heading"><h2>Officers Benefits</h2></div>
 						</div>
 					</div>
 					<br>
 					<ul class="list-unstyled staff-benefits">
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Learning convenience.</li>
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Access course materials.</li>
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Submit assignments online.</li>
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Tests appear online.</li>
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Access to results of various tests.</li>
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Evaluate or rate the faculty.</li>
-						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Easy library access.</li>
+						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Keep track of Students</li>
+						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;View various college events</li>
+						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Communicate with the College Authorities</li>
+						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Communicate with Student with Authorisation of College Faculty</li>
+						<li><span class="glyphicon glyphicon-ok"></span>&nbsp;Review Placement Data</li>
 					</ul>
 				</div>
 				<div class="col-sm-4">
@@ -51,13 +49,22 @@
 							<label for="exampleInputPassword1">Password</label>
 							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">GST ID/Authorisation Key</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="GST ID/Authorisation Key">
+						</div>
 						<div class="form-check">
 							<input type="checkbox" class="form-check-input" id="exampleCheck1">
 							<label class="form-check-label" for="exampleCheck1">Stay Log in</label>
 						</div>
 						<button type="submit" class="btn btn-primary">Submit</button>
-						<div class="pass-forgot">
-							<a class="" href="#">forgot Password?</a>
+						<div class="row">
+							<div class="pass-forgot col-sm-8">
+								<a class="" href="#">forgot Password?</a>
+							</div>
+							<div class="pass-forgot new-user col-sm-4">
+								<a class="" href="#">New User</a>
+							</div>
 						</div>
 					</form>
 				</div>

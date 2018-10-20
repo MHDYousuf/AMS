@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lily Script One|Acme');
 body {
       box-sizing: border-box;
       margin: 0;
@@ -6,14 +7,44 @@ body {
       flex-direction: column;
       max-height: 100vh;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #000000;
+      background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url("../../images/cover.jpg");
+      background-attachment: fixed;
+      background-size: cover;
     }
+
+.heading{
+  text-align: center;
+  color:white;
+  font-family: 'Acme', sans-serif;
+  margin-bottom: 70px;
+}
+.heading span{
+  color:#407fe5;
+  font-family: 'Lily Script One', cursive;
+}
+.description{
+  color:white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.description span{
+  color:#407fe5;
+  font-family: 'Lily Script One', cursive;
+}
+.description h3{
+  font-family: 'Acme', sans-serif;
+}
 
     .members-count,
     .members-list,
     .messages {
-      border: 1px solid #e4e4e4;
+      border: 2px solid #e4e4e4;
       padding: 15px;
       margin-bottom: 15px;
+      color:black!important;
+      border-radius:6px;
+      background:white!important;
     }
 
     .messages {
@@ -21,10 +52,10 @@ body {
       overflow: auto;
     }
 
-    .message {
-      padding: 5px 0;
+    .messages {
+      padding: 25px 15px;
     }
-    .message .member {
+    .messages .member {
       display: inline-block;
     }
 
@@ -45,4 +76,109 @@ body {
     }
     .message-form__button {
       margin: 10px;
+      background:#407fe5;
+      border:none;
+      padding:10px 15px;
+      border-radius: 8px;
+      color:white;
+      transition: 0.2s linear;
     }
+    .message-form__button:hover{
+      background:white;
+      color:black;
+    }
+    .message-form__button:focus{
+      border:none;
+    }
+
+
+    /*floating buttons*/
+
+
+    .float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#407fe5;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #fff;
+  z-index:1000;
+  animation: bot-to-tope 2s ease-out;
+}
+
+.floatting{
+  position:fixed;
+  right:40px;
+  padding-bottom:20px;
+  bottom:80px;
+  z-index:100;
+}
+
+.floatting li{
+  list-style:none;
+  margin-bottom:10px;
+}
+
+.floatting li a{
+  background-color:#407fe5;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #fff;
+  width:60px;
+  height:60px;
+  display:block;
+}
+
+.floatting:hover{
+  visibility:visible!important;
+  opacity:1!important;
+}
+
+
+.my-float{
+  font-size:20px;
+  margin-top:18px;
+}
+
+a#menu-share + .floatting{
+  visibility: hidden;
+}
+
+a#menu-share:hover + .floatting{
+  visibility: visible;
+  animation: scale-ine 0.5s;
+}
+
+a#menu-share i{
+  animation: rotate-ine 0.5s;
+}
+
+a#menu-share:hover > i{
+  animation: rotate-oute 0.5s;
+}
+
+@keyframes bot-to-tope {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-ine {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-ine {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-oute {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+

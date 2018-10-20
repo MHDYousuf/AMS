@@ -65,3 +65,7 @@
     position: absolute;
     top: 128px;
 }
+ .navbar-default .navbar-nav>li>a:focus{
+      color:#407fe5!important;
+      background: white!important;
+    }
