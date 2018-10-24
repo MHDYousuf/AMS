@@ -107,10 +107,11 @@
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #111 url(../images/bg.jpg) no-repeat center;
+	background: #333 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+	background-attachment: fixed;
 	padding-top: 5rem;
 	padding-bottom: 8rem;
 	color: white;
@@ -239,4 +240,26 @@ background: linear-gradient(#212121 20%, #171717);
 }
 .foot{
 	margin-top: 10px;
+}
+.scrollToTop{
+    width:40px; 
+    height:40px;
+    padding:7px; 
+    border-radius: 12px;
+    text-align:center; 
+    background:  #407fe5;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    display:none;
+    border-bottom: 2px solid #fff;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    background: #fff;
+    color:  #407fe5;
+    border-bottom: 2px solid  #407fe5;
 }
