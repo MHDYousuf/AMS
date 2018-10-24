@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 #heading{
-	background: #212020;
+	/*background: #212020;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -16,9 +16,9 @@
 }
 .headingg{
 	margin-top: 100px!important;
-	background: -webkit-linear-gradient(305deg, #212020 40%, #212020 100%);
+	/*background: -webkit-linear-gradient(305deg, #212020 40%, #212020 100%);
 	background: -o-linear-gradient(305deg, #212020 40%, #212020 100%);
-	background: linear-gradient(35deg, #212020 40%, #212020 100%);
+	background: linear-gradient(35deg, #212020 40%, #212020 100%);*/
 }
 
 .login{
@@ -46,7 +46,7 @@
 	font-family: 'Acme', sans-serif;
 }
 .login-block:hover{
-	background:#407fe5;
+	background:#11d691;
 	color:white;
 	transform: scale(1.1);
 }
@@ -66,6 +66,6 @@
     top: 128px;
 }
  .navbar-default .navbar-nav>li>a:focus{
-      color:#407fe5!important;
+      color:#11d691!important;
       background: white!important;
     }

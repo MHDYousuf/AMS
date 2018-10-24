@@ -1,17 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One|Lobster|Acme');
+
+body{
+	background-color: #000000;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(17, 214, 178, 0.1) ),url("../images/bg2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
+
 .navbar-brand{
 	font-family: 'Lily Script One', cursive;
-	color:#407fe5!important;
+	color:#11d691!important;
 }
 .navbar-fixed-top{
 	background-color: #fff!important;
 }
 .navbar-default{
-	background-color: #302e2e!important;
-	border-color:#407fe5!important;
+	background-color: #222!important;
+	border-color:#11d691!important;
 }
 .navbar-default .navbar-nav>.active>a{
-	background: #407fe5!important;
+	background: #11d691!important;
 	border:none;
 	color:white!important;
 }
@@ -23,7 +34,7 @@
 	transition: 1s;
 }
 .navbar-right li a{
-	color:#407fe5!important;
+	color:#11d691!important;
 	transition: .8s;
 }
 .navbar-right li a:hover{
@@ -33,7 +44,7 @@
 	background: transparent!important;
 }
 .jumbotron h1{
-	color:#407fe5!important;
+	color:#11d691!important;
 	font-family: 'Lily Script One', cursive;
 }
 .jumbotron q{
@@ -43,12 +54,16 @@
 	font-family: 'Charmonman', cursive;
 }
 .jumbotron .btn-primary{
-	background:#407fe5!important;
+	background:#11d691!important;
 	border:none;
-	transition: 1s;
+	transition: 0.5s;
+	font-family: 'Lobster', cursive;
 }
 .jumbotron .btn-primary:hover{
 	transform:scale(1.15);
+	background: #fff!important;
+	border-bottom: 2px solid #11d691!important;
+	color:#11d691;
 }
 .input-group {
 	max-width: 300px!important;
@@ -65,7 +80,7 @@
 }
 .custom-select{
 	padding:10px;
-	background: #407fe5;
+	background: #11d691;
 	border-radius: 10px;
 	color:#fff;
 	font-family: 'Josefin+Sans', cursive;
@@ -78,7 +93,7 @@
 	border:none;
 }
 .custom-select:hover{
-	background:#407fe5; 
+	background:#11d691; 
 	color:#fff;
 }
 .custom-select option{
@@ -91,13 +106,16 @@
 }
 .input-group-append button{
 	padding:10px 15px;
-	font-family: 'Bitter', serif;
+	font-family: 'Acme', sans-serif;
 	transition: 0.8s;
+	border-bottom: 3px solid #11d691;
+	background:#ffe!important;
 }
 .input-group-append button:hover{
 	font-size:17px;
-	background: #407fe5;
-	color:white;
+	background: #11d691!important;
+	color:#fff;
+	border-bottom: 3px solid #fff;
 }
 
 /** 
@@ -107,11 +125,6 @@
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #333 url(../images/bg.jpg) no-repeat center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
 	padding-top: 5rem;
 	padding-bottom: 8rem;
 	color: white;
@@ -123,8 +136,12 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #222222;
-	opacity: .97;
+	background: #11d691 url(../images/bg.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: .06;
 }
 
 #services .section-intro {
@@ -135,7 +152,7 @@
 	color: white;
 }
 #services .section-intro h4 {
-	color: #407fe5;
+	color: #11d691;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -157,7 +174,7 @@
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #407fe5;
+	color: #11d691;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -168,7 +185,7 @@
 .service-content svg{
 	height: 50px!important;
 	width:50px!important;
-	color:#407fe5;
+	color:#11d691;
 }
 /* pagination */
 .owl-pagination {
@@ -189,7 +206,7 @@
 	background: #FFFFFF;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #407fe5;
+	background: #11d691;
 }
 .form1 input{
 	width:320px;
@@ -201,7 +218,7 @@
 	padding:10px;
 }
 .submitform{
-	background: #407fe5;
+	background: #11d691;
 	border:none;
 	padding:10px 20px;
 	border-radius: 10px;
@@ -211,32 +228,32 @@
 	transform: scale(1.2);
 }
 #contact{
-background: -webkit-linear-gradient(#212121 20%, #171717);
-background: -o-linear-gradient(#212121 20%, #171717);
-background: linear-gradient(#212121 20%, #171717);
--webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+	
 	color: white;
 	position: relative;
 }
 
 #contact .overlay1 {
 	position: absolute;
+	background: #11d691 url(../images/bg.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: .06;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .8;
 }
 #contact .section-intro h4 {
-	color: #407fe5;
+	color: #11d691;
 }
 #contact .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
 .contact-head{
-	color: #407fe5;
+	color: #11d691;
 }
 .foot{
 	margin-top: 10px;
@@ -247,7 +264,7 @@ background: linear-gradient(#212121 20%, #171717);
     padding:7px; 
     border-radius: 12px;
     text-align:center; 
-    background:  #407fe5;
+    background:  #11d691;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
@@ -260,6 +277,6 @@ background: linear-gradient(#212121 20%, #171717);
 .scrollToTop:hover{
     text-decoration:none;
     background: #fff;
-    color:  #407fe5;
-    border-bottom: 2px solid  #407fe5;
+    color:  #11d691;
+    border-bottom: 2px solid  #11d691;
 }
