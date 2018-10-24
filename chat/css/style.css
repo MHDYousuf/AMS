@@ -20,7 +20,7 @@ body {
   margin-bottom: 70px;
 }
 .heading span{
-  color:#407fe5;
+  color:#11d691;
   font-family: 'Lily Script One', cursive;
 }
 .description{
@@ -29,7 +29,7 @@ body {
   margin-bottom: 60px;
 }
 .description span{
-  color:#407fe5;
+  color:#11d691;
   font-family: 'Lily Script One', cursive;
 }
 .description h3{
@@ -76,7 +76,7 @@ body {
     }
     .message-form__button {
       margin: 10px;
-      background:#407fe5;
+      background:#11d691;
       border:none;
       padding:10px 15px;
       border-radius: 8px;
@@ -101,7 +101,7 @@ body {
   height:60px;
   bottom:40px;
   right:40px;
-  background-color:#407fe5;
+  background-color:#11d691;
   color:#FFF;
   border-radius:50px;
   text-align:center;
@@ -124,7 +124,7 @@ body {
 }
 
 .floatting li a{
-  background-color:#407fe5;
+  background-color:#11d691;
   color:#FFF;
   border-radius:50px;
   text-align:center;
