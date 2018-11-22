@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Zocial</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	</head>
+	<body style="/*background: #212020;*/ z-index: -1 padding-top: 70px; ">
+		<nav class="container navbar navbar-default navbar-fixed-top" style="position: absolute; top:3vh;">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Zocial</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="http://www.knowafest.com/college-fests/state/Kerala">College Events</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right" style="transform: translateX(-10vw);">
+						<li><a href="index-officer.php">Officers Login <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></a></li>					</ul>
+					</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+				<div class="container-fluid headsec">
+					<div class="overlay"></div>
+					<section id="heading">
+						<div class="overlay"></div>
+					<div class="row headingg">
+						<div class="jumbotron col-sm-7 description">
+							<h1>Zocial</h1>
+							<q style="text-transform: uppercase;">An Academic Management Software is at your hands! Join and Connect with Us.</q>
+							<p><a class="btn btn-primary btn-lg" href="#" role="button">Getting Started</a></p>
+						</div>
+					<!--</div>
+					<div class="row">-->
+						<div class="col-sm-3 col-sm-offset-1 login">
+							<div class="hidee" style="display: none;">
+							<a href="index-staff.php">
+								<div class="login-block">
+									<div class="">
+										<h3><span class="">Faculty</span> Login</h3>
+									</div>
+								</div>
+							</a>
+							
+							<a href="index-student.php">
+								<div class="login-block">
+									<div class="">
+										<h3><span class="">Student</span> Login</h3>
+									</div>
+								</div>
+							</a>
+							<a href="index-parent.php">
+								<div class="login-block ">
+									<div class="">
+										<h3><span class="">Parent</span> Login</h3>
+									</div>
+								</div>
+							</a>
+							<a href="index-officer.php">
+								<div class="login-block ">
+									<div class="">
+										<h3><span class="">Officers</span> Login</h3>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="input-group col-sm-9">
+							<p class="err-p">*Required</p>
+  							<select class="custom-select" id="inputGroupSelect04">
+    							<option selected>Choose Your Collge</option>
+    							<option value="1">MES College of Engineering, Kuttipuram</option>
+    							<option value="2">Royal College of Engineering, Kunnamkulam</option>
+    							<option value="3">Model Engineering College, Ernakulam</option>
+    							<option value="4">LBS College of Engineering, Kasaragod</option>
+    							<option value="5">SCT College of Engineering, Thiruvananthapuram</option>
+    							<option value="6">Institute of Engineering and Technology, Malappuram</option>
+    							<option value="7">College of Engineering, Kasaragod</option>
+    							<option value="8">Holy Grace Academy of Engineering, Thrissur</option>
+    							<option value="9">IES College of Engineering, Thrissur</option>
+    							<option value="10">KMCT College of Engineering, Kozhikode</option>
+    							<option value="11">KVM College of Engineering and Information Technology, Alappuzha</option>
+    							<option value="12">M E A Engineering College, Vengoor</option>
+    							<option value="13">MES College of Engineering and Technology, Ernakulam</option>
+    							<option value="14">Nehru College of Engineering and Research Centre, Thrissur</option>
+    							<option value="15">Thejus Engineering College, Thrissur</option>
+ 							</select>
+  							<div class="input-group-append">
+    							<button class="btn btn-outline-secondary" id="sbm" type="button">Submit</button>
+  							</div>
+						</div>
+					</div>
+					</div>
+				</section>
+			</div>
+			<div class="container">
+					<section id="services">
+						<div class="overlay"></div>
+						<div class="row section-intro">
+							<div class="col-sm-12">
+								<h4>Services</h4>
+								<h1>What Can We Do For You?</h1>
+								<p class="lead">We can provide the Best intel to the Students about Carrier Development, Opportunities and Best interface for All other College Faculties and helps Students(via Authorities) to Connect with Companies.</p>
+							</div>
+							</div> <!-- /section-intro -->
+							<div class="row services-content">
+								<div id="owl-slider" class="owl-carousel services-list">
+									<div class="service col-sm-4">
+									<div class="service-content">
+										<i class="far fa-comments"></i>
+									<h3>Discussion Forums</h3>
+									<p class="desc">Conduct discussion forums on various topics to boost the academics, conduct group discussions, and to improve the collaboration over team projects.
+									</p>	
+								</div>
+							</div> <!-- /service -->
+						<div class="service col-sm-4">
+								<div class="service-content">
+									<i class="fas fa-info"></i>
+								<h3>College Event Information</h3>
+								<p class="desc">Provide All the Details of College Events/Programs occuring in a Particular months and to improve research on the topic.
+								</p>
+							</div>
+						</div> <!-- /service -->
+						<div class="service col-sm-4">
+							<div class="service-content">
+							<i class="fas fa-user-tie"></i>
+							<h3>Placement and Training Management</h3>
+							<p class="desc">Helps the placement officer to manage all placement activities in one place.
+							</p>
+							</div>
+						</div> <!-- /service -->
+					<div class="service col-sm-4">
+						<div class="service-content">
+							<i class="far fa-comment-alt"></i>
+							<h3>Communication</h3>
+							<p class="desc">Helps Students,Faculties to connect with the Companies through chatting, Video Conference like other Communication mediums.
+							</p>				
+						</div>
+					</div> <!-- /service -->
+				<div class="service col-sm-4">
+					<div class="service-content">
+						<i class="fas fa-pen-alt"></i>
+						<h3>Online Feedbacks</h3>
+						<p class="desc">Collect real-time performance data for continuous improvements and enhancements and develop it to the best fit.
+						</p>
+					</div>
+				</div> <!-- /service -->
+				<div class="service col-sm-4">
+						<div class="service-content">
+							<i class="fas fa-hands-helping"></i>
+							<h3>Consultancy</h3>
+							<p class="desc">All the members can consult on various questions or other Study related topics through Notification Tab.
+							</p>					
+						</div>
+					</div> <!-- /service -->
+				</div> <!-- /services-list -->												
+			</div> <!-- /services-content -->													
+		</section> <!-- /services -->
+<!-- contact================================================== -->
+	<section id="contact">
+		<div class="overlay1"></div>
+		<div class="row section-intro">
+   			<div class="col-sm-12">
+
+   			<h4>Contact</h4>
+   			<h1>We'd Love To Hear From You.</h1>
+
+   			<p class="desc">If you are facing Bugs or Errors then please inform us and to develop more features and suggestion, share with us.</p>
+
+   			</div> 
+   		</div> <!-- /section-intro -->
+
+   		<div class="row contact-form">
+
+   			<div class="col-sm-12">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="includes/contactform.php">
+      			<fieldset>
+				<div class="col-sm-12">
+                  <div class="form-field form1">
+ 						   <input name="contactName" type="text" id="contactName" name="name" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field form1">
+	      			   <input name="contactEmail" type="email" id="contactEmail" name="email" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field form1">
+	     				   <input name="contactSubject" type="text" id="contactSubject" name="subject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field form1">
+	                 	<textarea name="contactMessage" id="contactMessage" name="message" placeholder="Message" rows="8" cols="40" required=""></textarea>
+	               </div>                      
+              	   <div class="form-field">
+                     <button class="submitform" name="submit">Submit</button>
+                 <!--    <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>  -->
+                  </div>
+				</div>
+      			</fieldset>
+      		 </form> <!-- Form End -->
+
+            <!-- contact-warning -->
+        <!--     <div id="message-warning">            	
+             </div>            -->
+             <!-- contact-success -->
+      	<!--	 <div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      	 	 </div> -->
+
+      	</div> <!-- /col-twelve -->
+   		
+   		</div> <!-- /contact-form -->
+
+   			<div class="row contact-info foot">
+   				<div class="overlay"></div>
+
+   				<div class="col-sm-4 tab-full">
+
+   					<div class="icon">
+   						<i class="icon-pin"></i>
+   					</div>
+
+   					<h4 class="contact-head">Where to find Us</h4>
+
+   					<p>
+           			 MES COLLEGE OF ENGINEERING<br>
+              		 Kuttipuram,Thrikkanapuram P.O<br>
+           			 Kerala-INDIA
+           		 	</p>
+
+   				</div>
+
+   				<div class="col-sm-4 tab-full">
+
+   					<div class="icon">
+   						<i class="icon-mail"></i>
+   					</div>
+
+   					<h4 class="contact-head">Email Me At</h4>
+
+   					<p>contact@zocial.com<br>
+				   	info-support@zocial.com			     
+			 	  	</p>
+
+   				</div>
+
+   				<div class="col-sm-4 tab-full">
+
+   					<div class="icon">
+   						<i class="icon-phone"></i>
+   					</div>
+
+   					<h4 class="contact-head">Call Me At</h4>
+
+   					<p>Phone: 953 931 3920<br>
+			   			Mobile: 953 931 3920<br>
+			    	 	Fax: 953 931 3920
+			  		 </p>
+
+   				</div>
+   		
+   			</div> <!-- /contact-info -->
+		 <!-- /contact -->
+     	<div class="row">
+      		<div class="col-sm-12 tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Zocial 2018 - All Rights Reserved.</span> 	         	
+		         </div>		                  
+	      	</div>
+      	</div> <!-- /row -->     	 
+	</section>
+		
+
+
+		<a href="#" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+		<script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

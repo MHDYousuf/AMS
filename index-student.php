@@ -42,21 +42,32 @@
 					</ul>
 				</div>
 				<div class="col-sm-4">
-					<form>
+					<form action="includes/login.inc.php" method="post">
 						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<label for="userid">Username</label>
+							<input type="text" name="userid" class="form-control" id="userid" aria-describedby="emailHelp" placeholder="Enter UserName" required>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
 						<div class="form-group">
-							<label for="exampleInputPassword1">Password</label>
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							<label for="password">Password</label>
+							<input type="password" name="pwd" class="form-control" id="password" placeholder="Password" required>
 						</div>
 						<div class="form-check">
 							<input type="checkbox" class="form-check-input" id="exampleCheck1">
 							<label class="form-check-label" for="exampleCheck1">Stay Log in</label>
 						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<?php
+								if(isset($_GET['error'])){
+									if($_GET['error'] == "emptyfields"){
+										echo '<p style="color:red";>Fill in all fields</p>';
+									}elseif($_GET["error"] == "wrongpwd"){
+										echo '<p style="color:red";>Entered Wrong Password</p>';
+									}elseif($_GET["error"] == "nouser"){
+										echo '<p style="color:red";>User with Username/Password not exists</p>';
+									}
+								}
+				?>
+						<button type="submit" class="btn btn-primary" name="login-submit">Submit</button>
 						<div class="pass-forgot">
 							<a class="" href="#">forgot Password?</a>
 						</div>
@@ -115,13 +126,13 @@
 					<i class="fa fa-plus my-float"></i>
 				</a>
 				<ul class="floatting">
-					<li><a href="index.html#contact">
+					<li><a href="index.php#contact">
       				<i class="fas fa-envelope my-float"></i>
     				</a></li>
-					<li><a href="chat/index.html">
+					<li><a href="chat/index.php">
 						<i class="fa fa-comment-alt my-float"></i>
 					</a></li>
-					<li><a href="index.html">
+					<li><a href="index.php">
 						<i class="fa fa-home my-float"></i>
 					</a></li>
 				</ul>

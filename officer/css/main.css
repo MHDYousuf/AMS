@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700');
+.navbar-brand{
+	color:#00a8ff!important;
+	margin-left: 2vw!important;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+}
+#navbar li a:hover{
+	color:#00a8f1;
+	cursor: pointer;
+}

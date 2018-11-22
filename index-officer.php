@@ -40,31 +40,31 @@
 					</ul>
 				</div>
 				<div class="col-sm-4">
-					<form>
+					<form action="includes/loginofficer.inc.php" method="post">
 						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
 						<div class="form-group">
-							<label for="exampleInputPassword1">Password</label>
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							<label for="pwd">Password</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd" required>
 						</div>
 						<div class="form-group">
-							<label for="exampleInputPassword1">GST ID/Authorisation Key</label>
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="GST ID/Authorisation Key">
+							<label for="key">GST ID/Authorisation Key</label>
+							<input type="password" class="form-control" id="key" name="key" placeholder="GST ID/Authorisation Key" required>
 						</div>
 						<div class="form-check">
-							<input type="checkbox" class="form-check-input" id="exampleCheck1">
-							<label class="form-check-label" for="exampleCheck1">Stay Log in</label>
+							<input type="checkbox" class="form-check-input" id="check">
+							<label class="form-check-label" for="check">Stay Log in</label>
 						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<button type="submit" name="officer-login" class="btn btn-primary">Submit</button>
 						<div class="row">
 							<div class="pass-forgot col-sm-8">
 								<a class="" href="#">forgot Password?</a>
 							</div>
 							<div class="pass-forgot new-user col-sm-4">
-								<a class="" href="#">New User</a>
+								<a class="" href="officer/signup/index.php">New User</a>
 							</div>
 						</div>
 					</form>
@@ -122,13 +122,13 @@
 					<i class="fa fa-plus my-float"></i>
 				</a>
 				<ul class="floatting">
-					<li><a href="index.html#contact">
+					<li><a href="index.php#contact">
       				<i class="fas fa-envelope my-float"></i>
     				</a></li>
-					<li><a href="chat/index.html">
+					<li><a href="chat/index.php">
 						<i class="fa fa-comment-alt my-float"></i>
 					</a></li>
-					<li><a href="index.html">
+					<li><a href="index.php">
 						<i class="fa fa-home my-float"></i>
 					</a></li>
 				</ul>
