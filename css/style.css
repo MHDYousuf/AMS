@@ -4,6 +4,7 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+	margin-bottom: 20vh;
 }
 #heading .overlay {
 	position: absolute;
@@ -15,7 +16,7 @@
 	opacity: .98;
 }
 .headingg{
-	margin-top: 100px!important;
+    margin-top: 22vh!important;
 	/*background: -webkit-linear-gradient(305deg, #212020 40%, #212020 100%);
 	background: -o-linear-gradient(305deg, #212020 40%, #212020 100%);
 	background: linear-gradient(35deg, #212020 40%, #212020 100%);*/
@@ -69,3 +70,21 @@
       color:#11d691!important;
       background: white!important;
     }
+.switch-mode{
+	margin-top: 9px;
+	margin-left: 9px;
+	transition: 0.3s;
+	border: none!important;
+	border-radius: 0px!important;
+}
+.btn-default:hover{
+	background-color: #11d691!important;
+	
+}
+.switch-mode a{
+	color: black!important;
+}
+.switch-mode a:hover{
+	text-decoration: none!important;
+	color: white!important;
+}

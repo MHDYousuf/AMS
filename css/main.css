@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One|Lobster|Acme');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One|Lobster|Acme|Roboto+Condensed:700|Bitter:700|Mukta:200');
 
 body{
 	background-color: #000000;
@@ -6,7 +6,6 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 }
-
 
 
 
@@ -18,8 +17,14 @@ body{
 	background-color: #fff!important;
 }
 .navbar-default{
-	background-color: #222!important;
+	background-color: transparent!important;
+	border:none!important;
 	border-color:#11d691!important;
+}
+.nav li{
+	text-transform: uppercase;
+	font-family: 'Mukta', sans-serif;
+	letter-spacing: 2px;
 }
 .navbar-default .navbar-nav>.active>a{
 	background: #11d691!important;
@@ -35,10 +40,10 @@ body{
 }
 .navbar-right li a{
 	color:#11d691!important;
-	transition: .8s;
+	transition: .3s ease-out;
 }
 .navbar-right li a:hover{
-	font-size: 16px;
+	font-size: 15px;
 }
 .jumbotron{
 	background: transparent!important;
@@ -51,7 +56,7 @@ body{
 	color:white!important;
 	font-size: 22px;
 	line-height: 2!important;
-	font-family: 'Charmonman', cursive;
+	font-family: 'Bitter', serif;
 }
 .jumbotron .btn-primary{
 	background:#11d691!important;
@@ -150,12 +155,18 @@ body{
 
 #services .section-intro h1 {
 	color: white;
+	margin-bottom: 6vh;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
 }
 #services .section-intro h4 {
 	color: #11d691;
+	margin-bottom: 6vh;
+	font-family: monospace,sans-serif;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 11vh;
 }
 .services-content {
 	max-width: 1200px;
