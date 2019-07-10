@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body{
+	background-color: #fff;
+	background-image: linear-gradient( rgba(255,255,255, 0.8), rgba(255,255,255, 1) ),url("../images/day.png")!important;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+.headingg{
+	margin-top:45px!important;
+	margin-bottom:90px!important;
+}
+.heading{
+	color:black;
+	font-family: 'Acme', sans-serif;
+	text-align:center;
+	font-size: 10px;
+}
+.description{
+	padding:20px;
+}
+.heading span{
+	color:#45aaf2;
+	font-family: 'Lily Script One', cursive;
+}
+.student-logo svg{
+	font-size:60px;
+	color:#45aaf2;
+}
+.login-heading h2{
+	font-size: 28px!important;
+	color:black!important;
+	font-family: 'Acme', sans-serif;
+}
+.staff-benefits li{
+	color:black;
+	font-size: 18px;
+	line-height: 1.8;
+}
+.glyphicon{
+	color:#33cc30!important;
+	margin-right:7px!important;
+}
+form{
+	padding:30px;
+	border-right:5px groove #45aaf2;
+	border-bottom:5px groove #45aaf2;
+	border-left:2px  solid black;
+	border-top:2px  solid black;
+	border-radius: 10px;
+	box-shadow: 7px 5px 10px rgba(70, 76, 70,0.4);
+}
+.form-group label{
+	color:#45aaf2;
+	font-family:sans-serif;
+}
+.form-group input{
+	background: rgba(38, 40, 38,0.1);
+	border:none;
+	border-bottom: 2px solid #45aaf2;
+	color:black;
+}
+.form-check label{
+	color:black;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+.form-check .form-check-input{
+	color:#45aaf2!important;
+	padding:10px!important;
+}
+form button{
+	transition: 0.4s linear;
+	background: #45aaf2!important;
+	color:black!important;
+}
+form button:hover{
+	border:none!important;
+	background: #fff!important;
+	color:#45aaf2!important;
+}
+.pass-forgot,.pass-forgot a{
+	margin-top:13px!important;
+	text-decoration: none!important;
+	transition:0.7s;
+	color:#45aaf2!important;
+}
+.pass-forgot a:hover{
+	font-size:16px!important;
+}
+.new-user{
+	margin-top: 8px!important;
+	background:#45aaf2!important;
+	height:27px;
+	line-height: 2;
+	border-radius: 5px;
+}
+.new-user a{
+	color:white!important;
+	padding:7px;
+}
+.new-user a:hover{
+	font-size:14px!important;
+}
+.new-user:hover{
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.footer11{
+	margin-top:50px!important;
+	text-align: center;
+}
+.footer11 p{
+	color:#b2bab2!important;
+}
+.copyright{
+	text-align: center;
+	color:#404440;
+}
+
+
+/*floating buttons*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#45aaf2;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #fff;
+	z-index:1000;
+	animation: bot-to-tope 2s ease-out;
+}
+
+.floatting{
+	position:fixed;
+	right:40px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+.floatting li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+.floatting li a{
+	background-color:#45aaf2;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #fff;
+	width:60px;
+	height:60px;
+	display:block;
+}
+
+.floatting:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+
+.my-float{
+	font-size:20px;
+	margin-top:18px;
+}
+
+a#menu-share + .floatting{
+  visibility: hidden;
+}
+
+a#menu-share:hover + .floatting{
+  visibility: visible;
+  animation: scale-ine 0.5s;
+}
+
+a#menu-share i{
+	animation: rotate-ine 0.5s;
+}
+
+a#menu-share:hover > i{
+	animation: rotate-oute 0.5s;
+}
+
+@keyframes bot-to-tope {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-ine {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-ine {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-oute {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}

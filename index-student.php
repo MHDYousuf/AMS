@@ -126,13 +126,13 @@
 					<i class="fa fa-plus my-float"></i>
 				</a>
 				<ul class="floatting">
-					<li><a href="index.php#contact">
+					<li><a href="index.html#contact">
       				<i class="fas fa-envelope my-float"></i>
     				</a></li>
-					<li><a href="chat/index.php">
+					<li><a href="chat/index.html">
 						<i class="fa fa-comment-alt my-float"></i>
 					</a></li>
-					<li><a href="index.php">
+					<li><a href="index.html">
 						<i class="fa fa-home my-float"></i>
 					</a></li>
 				</ul>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One|Lobster|Acme|Roboto+Condensed:700|Bitter:700|Mukta:200');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bitter|Bad+Script|Charmonman|Lily+Script+One|Lobster|Acme|Roboto+Condensed:700');
 
 body{
 	background-color: #000000;
@@ -6,6 +6,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 }
+
 
 
 
@@ -17,14 +18,8 @@ body{
 	background-color: #fff!important;
 }
 .navbar-default{
-	background-color: transparent!important;
-	border:none!important;
+	background-color: #222!important;
 	border-color:#11d691!important;
-}
-.nav li{
-	text-transform: uppercase;
-	font-family: 'Mukta', sans-serif;
-	letter-spacing: 2px;
 }
 .navbar-default .navbar-nav>.active>a{
 	background: #11d691!important;
@@ -40,10 +35,10 @@ body{
 }
 .navbar-right li a{
 	color:#11d691!important;
-	transition: .3s ease-out;
+	transition: .8s;
 }
 .navbar-right li a:hover{
-	font-size: 15px;
+	font-size: 16px;
 }
 .jumbotron{
 	background: transparent!important;
@@ -56,7 +51,7 @@ body{
 	color:white!important;
 	font-size: 22px;
 	line-height: 2!important;
-	font-family: 'Bitter', serif;
+	font-family: 'Charmonman', cursive;
 }
 .jumbotron .btn-primary{
 	background:#11d691!important;

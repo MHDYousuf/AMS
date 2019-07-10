@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+#heading{
+	/*background: #212020;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	margin-bottom: 20vh;
+}
+#heading .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom,rgba(255,255,255,.9) 48%,rgba(255,255,255,1) 100%),url(../images/day.png);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	opacity: .98;
+}
+.headingg{
+	margin-top: 22vh!important;
+	/*background: -webkit-linear-gradient(305deg, #212020 40%, #212020 100%);
+	background: -o-linear-gradient(305deg, #212020 40%, #212020 100%);
+	background: linear-gradient(35deg, #212020 40%, #212020 100%);*/
+}
+
+.login{
+	/*border:2px solid black;*/
+	/*padding:20px;*/
+	text-align: center;
+	margin:0 auto;
+
+}
+.login-block{
+	border:1px solid black;
+	background:#b2bec3;
+	padding:10px;
+	margin-bottom: 10px;
+	max-width: 300px;
+	left: 50%;
+	color:black;
+    position: relative;
+    margin-left: -151px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.login a{
+	text-decoration: none!important;
+	font-family: 'Acme', sans-serif;
+}
+.login-block:hover{
+	background:#45aaf2;
+	color:black;
+	transform: scale(1.1);
+}
+.description{
+	line-height: 4!important;
+}
+.service,.section-intro, .form-field, .contact-info, .copyright{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.err-p{
+	display: none;
+	font-size: 16px;
+    color: red;
+    margin-left: 230px;
+    position: absolute;
+    top: 128px;
+}
+ .navbar-default .navbar-nav>li>a:focus{
+      color:#45aaf2!important;
+      background: white!important;
+    }
+.switch-mode{
+	margin-top: 9px;
+	float: right;
+	transition: 0.3s;
+	border: none!important;
+	background-color: #2d3436!important;
+	border-radius: 0px!important;
+}
+.btn-default:hover{
+	background-color: #45aaf2!important;
+	
+}
+.switch-mode a{
+	color: white!important;
+}
+.switch-mode a:hover{
+	text-decoration: none!important;
+	color: black!important;
+}

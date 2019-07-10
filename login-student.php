@@ -94,7 +94,7 @@ session_start();
 								<h5><a href="">Evaluation</a></h5>
 							</div>
 							<div>
-								<h5><a href="chat/index.php?name="<?php echo $_SESSION['name']?>>Chatroom</a></h5>
+								<h5><a href="index-chat.html?name="<?php echo $_SESSION['name']?>>Chatroom</a></h5>
 							</div>
 							<div>
 								<h5><a href="">Job</a></h5>
