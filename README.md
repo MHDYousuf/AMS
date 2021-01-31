@@ -9,7 +9,7 @@ An Academic Management Web Application Built with PHP. It is part of our academi
 
 ## Features
 
-> Light / Dark Mode
-> Integrated Live Chat
-> Dashboard for Faculties and Students
-> Portal for Various College Event Details
+* Light / Dark Mode
+* Integrated Live Chat
+* Dashboard for Faculties and Students
+* Portal for Various College Event Details
